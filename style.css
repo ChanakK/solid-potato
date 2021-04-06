@@ -1,0 +1,102 @@
+/* setting defaults */
+* {
+  box-sizing: border-box;
+}
+
+/* Header-title */
+.site-title {
+ text-align: center;
+ 
+}
+
+/* main-container */
+.main-container {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  margin: 5px 10px;
+}
+
+/* primary-container */
+.primary-container {
+  display: flex;
+
+}
+
+/* sub-container */
+.sub-container {
+  border: 0.2px solid #000;
+  padding: 8px;
+  
+}
+
+/* all h2s */
+.title-for-sub-headings {
+  font-weight: 300;
+  text-align: center;
+  font-style: italic;
+}
+
+/* left-primary-sub-container */
+.left {
+  flex-basis: 25%;
+}
+
+/* middle-primary-sub-container */
+.middle {
+  flex-basis: 50%;
+}
+/* right-primary-sub-container */
+.right {
+  flex-basis: 25%;
+}
+
+/* secondary-container */
+.secondary-container {
+  display: flex;
+}
+
+/*  sub-container-bottom-left*/
+.bottom-left {
+  flex-basis: 25%;
+}
+
+/*  sub-container-bottom-right*/
+.bottom-right {
+  flex-basis: 75%;
+  padding: 0;
+ 
+}
+
+/* inner-sub-container */
+.inner-sub-container {
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+/* Divs inside the inenr-sub-container */
+.divs-with-box {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 50px 25px;
+  
+}
+
+/* defining bg-colors for the .divs-with-box */
+.color1 {
+  background-color:bisque
+}
+.color2 {
+  background-color: cyan;
+}
+.color3 {
+background-color: lightgreen;
+}
+.color4 {
+background-color: lightskyblue;
+}
+
+.color5 {
+background-color:mediumpurple;
+}
